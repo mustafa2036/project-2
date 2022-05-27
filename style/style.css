@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    color: rgb(114 137 149) !important;
+}
+.color{
+    color: #bc7b3a !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #bc7b3a !important;
+}
+.home-bg{
+    background-image: url(../images/pexels-cottonbro-4753894.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item-color .color{
+    cursor: pointer;
+    transition: all .5s;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.item-color .color:hover{
+    color: rgba(255,255,255,.55) !important;
+}
+.item-caption h3{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.item-caption span{
+    color: rgb(14 30 35);
+    font-size: 2.3rem;
+}
+.item-caption p{
+    color: #aaa;
+    font-size: 1.2rem;
+}
